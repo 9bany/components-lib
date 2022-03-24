@@ -1,5 +1,6 @@
 {
   "name": "composer-lib",
+  "package-name": "git+ssh://git@github.com:9bany/composer-lib.git",
   "version": "0.0.1",
   "description": "",
   "main": "dist/cjs/index.js",
