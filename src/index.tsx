@@ -1,7 +1,5 @@
-import React from "react";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-const Component: React.FC<{}> = ({ children }) => {
-  return <div>{children}</div>
-};
-
-export default Component;
+ReactDOM.render(<App />, document.getElementById('app'));
