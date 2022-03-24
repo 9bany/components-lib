@@ -1,7 +1,7 @@
-import React from "react";
+import Button from './Button';
+import Component from './Component';
 
-const Component: React.FC<{}> = ({ children }) => {
-  return <div>{children}</div>
-};
-
-export default Component;
+export {
+    Component,
+    Button
+}
