@@ -41,3 +41,5 @@ $ npm run storybook | yarn storybook
 ```
 $ npm run build-storybook | yarn build-storybook
 ```
+## Contributing
+Feel free to open an issue, or better yet, a pull request!
