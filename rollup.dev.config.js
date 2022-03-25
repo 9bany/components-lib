@@ -8,7 +8,6 @@ import { terser } from 'rollup-plugin-terser';
 import serve from 'rollup-plugin-serve';
 import livereload from 'rollup-plugin-livereload';
 
-const isProd = process.env.NODE_ENV === 'production';
 const extensions = ['.js', '.ts', '.tsx'];
 
 export default {
@@ -19,7 +18,7 @@ export default {
     },
     plugins: [
         replace({
-            'process.env.NODE_ENV': JSON.stringify(isProd ? 'production' : 'development'),
+            'process.env.NODE_ENV': JSON.stringify('development'),
         }),
         resolve({
             extensions,
@@ -75,15 +74,14 @@ export default {
         scss({
             output: 'public/index.css',
         }),
-        (isProd && terser()),
-        (!isProd && serve({
+        serve({
             host: 'localhost',
             port: 3000,
             open: true,
             contentBase: ['public'],
-        })),
-        (!isProd && livereload({
+        }),
+        livereload({
             watch: 'public',
-        })),
+        })
     ],
 };
