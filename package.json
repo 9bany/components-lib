@@ -14,8 +14,7 @@
     "tsc": "tsc",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "prepublishOnly": "npm run build"
+    "build-storybook": "build-storybook"
   },
   "author": "9bany",
   "license": "MIT",
