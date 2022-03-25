@@ -53,7 +53,7 @@ export default {
         }),
         html({
             fileName: 'index.html',
-            title: 'Rollup + TypeScript + React = ❤️',
+            title: 'Components lib',
             template: ({ title }) => {
                 return `
 <!DOCTYPE html>
