@@ -10,7 +10,6 @@ const meta: Meta<PropsWithChildren<{}>> = {
       description: 'Content or elements to be rendered equal label',
       control: {
         type: 'text',
-        default: "f"
       },
       
     },

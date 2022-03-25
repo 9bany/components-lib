@@ -1,5 +1,5 @@
 import React from 'react';
-import { render } from 'test-setup';
+import { render } from './../test-setup';
 
 import { Basic as Component } from './index.stories';
 
