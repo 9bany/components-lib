@@ -1,4 +1,4 @@
-# Build your components template.
+# Build your components lib.
 
 - Project template for build components lib in reactjs with typescript.
 
