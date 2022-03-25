@@ -1,4 +1,7 @@
-# Component library starter template
+# Build your components template.
+
+- Project template for build components lib in reactjs with typescript.
+
 ## Used libraries
 1. [React.js v17](https://reactjs.org/)
 2. [TypeScript](https://www.typescriptlang.org/)
@@ -17,6 +20,8 @@ $ npm run dev | yarn dev
 ```
 $ npm run build | yarn build
 ```
+- Check dist folder to get your lib, that is a bundle file. We recommand get dist folder and all file on it.
+- Move dist folder to your project, import it and use.
 
 ## Run test
 ```
