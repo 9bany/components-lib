@@ -1,5 +1,5 @@
 {
-  "name": "composer-lib",
+  "name": "components-lib",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -17,9 +17,9 @@
     "build-storybook": "build-storybook",
     "prepublishOnly": "npm run build"
   },
-  "author": "",
-  "license": "",
-  "homepage": "",
+  "author": "9bany",
+  "license": "MIT",
+  "homepage": "https://github.com/9bany/components-lib",
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
