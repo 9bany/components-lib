@@ -8,6 +8,10 @@
 3. [Rollup.js](https://rollupjs.org/)
 4. [Storybook](https://storybook.js.org/)
 
+## Supports
+- Run for dev and pro env.
+- Support test automation.
+- Support storybook.
 ## Run install setup
 ```
 $ npm install | yarn
